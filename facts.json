@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "fact": "The first computer virus was created in 1983 and was called the Elk Cloner.",
+      "tags": ["history", "viruses"]
+    },
+    {
+      "id": 2,
+      "fact": "The term 'bug' in computer programming originated from a real insect that caused a malfunction in a computer.",
+      "tags": ["history", "bugs"]
+    },
+    {
+      "id": 3,
+      "fact": "The QWERTY keyboard layout, which is widely used today, was designed in the 1870s for typewriters.",
+      "tags": ["history", "keyboard"]
+    },
+    {
+      "id": 4,
+      "fact": "The first domain name ever registered was symbolics.com on March 15, 1985.",
+      "tags": ["history", "domain"]
+    },
+    {
+      "id": 5,
+      "fact": "The World Wide Web was invented by Sir Tim Berners-Lee in 1989.",
+      "tags": ["history", "internet"]
+    },
+    {
+      "id": 6,
+      "fact": "The average computer mouse is moved approximately 27 feet per day.",
+      "tags": ["fun", "mouse"]
+    },
+    {
+      "id": 7,
+      "fact": "The first hard disk drive, introduced in 1956, could only store 5 megabytes of data.",
+      "tags": ["history", "storage"]
+    },
+    {
+      "id": 8,
+      "fact": "The first computer programmer was Ada Lovelace, who wrote the first algorithm for Charles Babbage's Analytical Engine in the 1840s.",
+      "tags": ["history", "programming"]
+    },
+    {
+      "id": 9,
+      "fact": "The acronym 'URL' stands for Uniform Resource Locator.",
+      "tags": ["terminology", "internet"]
+    },
+    {
+      "id": 10,
+      "fact": "The first electronic computer, ENIAC, weighed more than 27 tons and occupied about 1,800 square feet of floor space.",
+      "tags": ["history", "computers"]
+    },
+    {
+      "id": 11,
+      "fact": "The CAPTCHA system was developed to distinguish humans from bots by asking them to complete tasks that are easy for humans but difficult for machines.",
+      "tags": ["security", "bots"]
+    },
+    {
+      "id": 12,
+      "fact": "The concept of cloud computing dates back to the 1960s with the idea of an 'intergalactic computer network' proposed by J.C.R. Licklider.",
+      "tags": ["history", "cloud"]
+    },
+    {
+      "id": 13,
+      "fact": "The first computer mouse was made of wood.",
+      "tags": ["history", "mouse"]
+    },
+    {
+      "id": 14,
+      "fact": "The first computer virus to receive significant media attention was the Morris Worm, which spread across the internet in 1988.",
+      "tags": ["history", "viruses"]
+    },
+    {
+      "id": 15,
+      "fact": "The programming language Python is named after the British comedy group Monty Python.",
+      "tags": ["programming", "fun"]
+    },
+    {
+      "id": 16,
+      "fact": "The first smartphone, called Simon Personal Communicator, was introduced by IBM in 1992.",
+      "tags": ["history", "smartphones"]
+    },
+    {
+      "id": 17,
+      "fact": "The concept of a computer 'virus' was first introduced by computer scientist Fred Cohen in the 1980s.",
+      "tags": ["history", "viruses"]
+    },
+    {
+      "id": 18,
+      "fact": "The term 'Wi-Fi' does not stand for anything. It is a trademarked term intended to be a play on the word 'hi-fi' (high fidelity).",
+      "tags": ["terminology", "wireless"]
+    },
+    {
+      "id": 19,
+      "fact": "The concept of open-source software promotes collaboration and sharing of code, allowing anyone to view, modify, and distribute the software's source code.",
+      "tags": ["programming", "open-source"]
+    },
+    {
+      "id": 20,
+      "fact": "The first known computer programmer was a woman named Ada Lovelace, who worked on Charles Babbage's Analytical Engine in the mid-1800s.",
+      "tags": ["history", "programming"]
+    }
+  ]
+  
