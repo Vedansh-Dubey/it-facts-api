@@ -1,103 +1,1502 @@
 [
-    {
-      "id": 1,
-      "fact": "The first computer virus was created in 1983 and was called the Elk Cloner.",
-      "tags": ["history", "viruses"]
-    },
-    {
-      "id": 2,
-      "fact": "The term 'bug' in computer programming originated from a real insect that caused a malfunction in a computer.",
-      "tags": ["history", "bugs"]
-    },
-    {
-      "id": 3,
-      "fact": "The QWERTY keyboard layout, which is widely used today, was designed in the 1870s for typewriters.",
-      "tags": ["history", "keyboard"]
-    },
-    {
-      "id": 4,
-      "fact": "The first domain name ever registered was symbolics.com on March 15, 1985.",
-      "tags": ["history", "domain"]
-    },
-    {
-      "id": 5,
-      "fact": "The World Wide Web was invented by Sir Tim Berners-Lee in 1989.",
-      "tags": ["history", "internet"]
-    },
-    {
-      "id": 6,
-      "fact": "The average computer mouse is moved approximately 27 feet per day.",
-      "tags": ["fun", "mouse"]
-    },
-    {
-      "id": 7,
-      "fact": "The first hard disk drive, introduced in 1956, could only store 5 megabytes of data.",
-      "tags": ["history", "storage"]
-    },
-    {
-      "id": 8,
-      "fact": "The first computer programmer was Ada Lovelace, who wrote the first algorithm for Charles Babbage's Analytical Engine in the 1840s.",
-      "tags": ["history", "programming"]
-    },
-    {
-      "id": 9,
-      "fact": "The acronym 'URL' stands for Uniform Resource Locator.",
-      "tags": ["terminology", "internet"]
-    },
-    {
-      "id": 10,
-      "fact": "The first electronic computer, ENIAC, weighed more than 27 tons and occupied about 1,800 square feet of floor space.",
-      "tags": ["history", "computers"]
-    },
-    {
-      "id": 11,
-      "fact": "The CAPTCHA system was developed to distinguish humans from bots by asking them to complete tasks that are easy for humans but difficult for machines.",
-      "tags": ["security", "bots"]
-    },
-    {
-      "id": 12,
-      "fact": "The concept of cloud computing dates back to the 1960s with the idea of an 'intergalactic computer network' proposed by J.C.R. Licklider.",
-      "tags": ["history", "cloud"]
-    },
-    {
-      "id": 13,
-      "fact": "The first computer mouse was made of wood.",
-      "tags": ["history", "mouse"]
-    },
-    {
-      "id": 14,
-      "fact": "The first computer virus to receive significant media attention was the Morris Worm, which spread across the internet in 1988.",
-      "tags": ["history", "viruses"]
-    },
-    {
-      "id": 15,
-      "fact": "The programming language Python is named after the British comedy group Monty Python.",
-      "tags": ["programming", "fun"]
-    },
-    {
-      "id": 16,
-      "fact": "The first smartphone, called Simon Personal Communicator, was introduced by IBM in 1992.",
-      "tags": ["history", "smartphones"]
-    },
-    {
-      "id": 17,
-      "fact": "The concept of a computer 'virus' was first introduced by computer scientist Fred Cohen in the 1980s.",
-      "tags": ["history", "viruses"]
-    },
-    {
-      "id": 18,
-      "fact": "The term 'Wi-Fi' does not stand for anything. It is a trademarked term intended to be a play on the word 'hi-fi' (high fidelity).",
-      "tags": ["terminology", "wireless"]
-    },
-    {
-      "id": 19,
-      "fact": "The concept of open-source software promotes collaboration and sharing of code, allowing anyone to view, modify, and distribute the software's source code.",
-      "tags": ["programming", "open-source"]
-    },
-    {
-      "id": 20,
-      "fact": "The first known computer programmer was a woman named Ada Lovelace, who worked on Charles Babbage's Analytical Engine in the mid-1800s.",
-      "tags": ["history", "programming"]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "fact": "The first computer programmer was Ada Lovelace, who worked on Charles Babbage's Analytical Engine in the mid-1800s.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 2,
+    "fact": "Python is a popular programming language known for its simplicity and readability.",
+    "tags": [
+      "ProgrammingLanguages"
+    ]
+  },
+  {
+    "id": 3,
+    "fact": "Linux is an open-source operating system that is widely used in various devices and servers.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 4,
+    "fact": "Phishing is a common cybersecurity threat where attackers deceive users into revealing sensitive information.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 5,
+    "fact": "HTML, CSS, and JavaScript are the core technologies used in web development.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 6,
+    "fact": "Artificial Intelligence (AI) is a branch of computer science that focuses on creating intelligent machines capable of human-like tasks.",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": 7,
+    "fact": "Bitcoin is the first and most well-known cryptocurrency, based on blockchain technology.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 8,
+    "fact": "HTTP (Hypertext Transfer Protocol) is the foundation of data communication on the World Wide Web.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 9,
+    "fact": "Data Science involves extracting insights and knowledge from large datasets using statistical analysis and machine learning techniques.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 10,
+    "fact": "Did you know that the first computer programmer was a woman named Ada Lovelace?",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 11,
+    "fact": "The ENIAC (Electronic Numerical Integrator and Computer) was the world's first general-purpose electronic computer.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 12,
+    "fact": "Java is a widely used programming language known for its platform independence and versatility.",
+    "tags": [
+      "ProgrammingLanguages"
+    ]
+  },
+  {
+    "id": 13,
+    "fact": "Windows is a popular operating system developed by Microsoft.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 14,
+    "fact": "Ransomware is a type of malware that encrypts a user's files and demands a ransom to restore access.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 15,
+    "fact": "CSS (Cascading Style Sheets) is used to define the presentation of a web page, including layout and design.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 16,
+    "fact": "Machine Learning is a subfield of AI that focuses on enabling computers to learn from data and make predictions or decisions.",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": 17,
+    "fact": "Ethereum is a blockchain-based platform that supports the development of decentralized applications and smart contracts.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 18,
+    "fact": "TCP/IP (Transmission Control Protocol/Internet Protocol) is the standard protocol for internet communication.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 19,
+    "fact": "Big Data refers to the large volumes of data that are too complex or massive to be processed by traditional data processing applications.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 20,
+    "fact": "The average person spends about 6 hours and 42 minutes online each day.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 21,
+    "fact": "The first computer virus was created in 1983 and was called the Elk Cloner.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 22,
+    "fact": "The C programming language was developed by Dennis Ritchie at Bell Labs in the early 1970s.",
+    "tags": [
+      "ProgrammingLanguages"
+    ]
+  },
+  {
+    "id": 23,
+    "fact": "Linux is an open-source operating system that was initially created by Linus Torvalds in 1991.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 24,
+    "fact": "Phishing is a common cybersecurity threat where attackers impersonate legitimate entities to trick users into revealing sensitive information.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 25,
+    "fact": "HTML stands for Hypertext Markup Language and is used for structuring content on the web.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 26,
+    "fact": "Machine learning is a subset of artificial intelligence that focuses on training algorithms to learn from and make predictions or decisions based on data.",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": 27,
+    "fact": "Bitcoin was introduced in 2009 by an anonymous person or group using the pseudonym Satoshi Nakamoto.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 28,
+    "fact": "HTTP stands for Hypertext Transfer Protocol and is the foundation of data communication on the World Wide Web.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 29,
+    "fact": "Data science combines various techniques and tools to analyze and extract insights from large volumes of structured and unstructured data.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 30,
+    "fact": "The average person spends about 6 hours and 42 minutes online each day.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 31,
+    "fact": "The ENIAC computer, developed in the 1940s, weighed more than 27 tons and used vacuum tubes for processing.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 32,
+    "fact": "Python is a popular programming language known for its simplicity and readability.",
+    "tags": [
+      "ProgrammingLanguages"
+    ]
+  },
+  {
+    "id": 33,
+    "fact": "Windows is one of the most widely used operating systems developed by Microsoft.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 34,
+    "fact": "Ransomware is a type of malware that encrypts a victim's files and demands a ransom payment in exchange for the decryption key.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 35,
+    "fact": "CSS (Cascading Style Sheets) is a stylesheet language used for describing the look and formatting of a document written in HTML.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 36,
+    "fact": "Artificial neural networks are computational models inspired by the structure and function of the human brain.",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": 37,
+    "fact": "Ethereum is a blockchain-based platform that enables the development of decentralized applications and smart contracts.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 38,
+    "fact": "DNS (Domain Name System) is a decentralized naming system that translates domain names to IP addresses.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 39,
+    "fact": "Data visualization is a technique used to represent data and information visually, making it easier to understand and analyze.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 40,
+    "fact": "The first computer mouse was made of wood and had only one button.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 41,
+    "fact": "The Altair 8800, introduced in 1975, is considered one of the first successful personal computers.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 42,
+    "fact": "JavaScript is a popular programming language primarily used for creating interactive web pages.",
+    "tags": [
+      "ProgrammingLanguages"
+    ]
+  },
+  {
+    "id": 43,
+    "fact": "macOS is the operating system developed by Apple Inc. for its Macintosh computers.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 44,
+    "fact": "Phishing attacks often involve email spoofing, where the sender's address is manipulated to appear as a trusted source.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 45,
+    "fact": "Responsive web design is an approach that ensures web pages render well on a variety of devices and screen sizes.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 46,
+    "fact": "Natural language processing (NLP) is a branch of AI that focuses on the interaction between computers and human language.",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": 47,
+    "fact": "Blockchain is a distributed ledger technology that enables secure and transparent transactions without the need for intermediaries.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 48,
+    "fact": "TCP/IP (Transmission Control Protocol/Internet Protocol) is the protocol suite used for internet communication.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 49,
+    "fact": "Big data refers to extremely large and complex datasets that cannot be easily managed or analyzed using traditional methods.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 50,
+    "fact": "The first webcam was developed at the University of Cambridge to monitor a coffee pot.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 51,
+    "fact": "The IBM 1401, introduced in 1959, was one of the first fully transistorized computers.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 52,
+    "fact": "Java is a widely used programming language known for its platform independence.",
+    "tags": [
+      "ProgrammingLanguages"
+    ]
+  },
+  {
+    "id": 53,
+    "fact": "Android is an open-source operating system developed by Google for mobile devices.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 54,
+    "fact": "Malware refers to any software intentionally designed to cause damage to a computer system or network.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 55,
+    "fact": "Bootstrap is a popular CSS framework that helps in building responsive and mobile-friendly web interfaces.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 56,
+    "fact": "Machine learning algorithms can be categorized into supervised learning, unsupervised learning, and reinforcement learning.",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": 57,
+    "fact": "Blockchain technology has the potential to revolutionize various industries, including finance, supply chain, and healthcare.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 58,
+    "fact": "FTP (File Transfer Protocol) is a standard network protocol used for the transfer of files between a client and a server on a computer network.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 59,
+    "fact": "Predictive analytics uses historical data and statistical modeling techniques to predict future events or outcomes.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 60,
+    "fact": "The average person touches their phone about 2,617 times per day.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 61,
+    "fact": "The Apple I, released in 1976, was the first computer produced by Apple Inc.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 62,
+    "fact": "Ruby is a dynamic, object-oriented programming language known for its simplicity and productivity.",
+    "tags": [
+      "ProgrammingLanguages"
+    ]
+  },
+  {
+    "id": 63,
+    "fact": "Unix is a powerful, multi-user operating system developed in the 1960s and widely used in servers and workstations.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 64,
+    "fact": "Social engineering is a technique used by attackers to manipulate individuals into divulging confidential information or performing actions that may compromise security.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 65,
+    "fact": "WordPress is a popular content management system (CMS) used for creating websites and blogs.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 66,
+    "fact": "Artificial general intelligence (AGI) refers to highly autonomous systems that can outperform humans at most economically valuable work.",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": 67,
+    "fact": "Ethereum introduced the concept of smart contracts, which are self-executing contracts with the terms of the agreement directly written into code.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 68,
+    "fact": "TCP (Transmission Control Protocol) provides reliable, ordered, and error-checked delivery of data over IP networks.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 69,
+    "fact": "Data preprocessing is an essential step in data science that involves cleaning, transforming, and organizing data before analysis.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 70,
+    "fact": "The first computer virus to infect the MS-DOS operating system was the Brain virus, created in 1986.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 71,
+    "fact": "C++ is a powerful programming language widely used for system programming, game development, and other performance-critical applications.",
+    "tags": [
+      "ProgrammingLanguages"
+    ]
+  },
+  {
+    "id": 72,
+    "fact": "macOS is built on the Unix operating system and provides a user-friendly interface for Apple computer users.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 73,
+    "fact": "Zero-day vulnerabilities are software vulnerabilities that are unknown to software vendors and can be exploited by attackers before a patch is available.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 74,
+    "fact": "JavaScript frameworks like React, Angular, and Vue.js have gained popularity for building dynamic and interactive web applications.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 75,
+    "fact": "Artificial intelligence is being used in healthcare to improve diagnosis accuracy, develop personalized treatment plans, and assist in drug discovery.",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": 76,
+    "fact": "Blockchain can provide a tamper-proof and transparent record of transactions, making it suitable for applications like supply chain management and voting systems.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 77,
+    "fact": "The TCP/IP protocol suite was developed in the 1970s and became the foundation for the modern internet.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 78,
+    "fact": "Data mining is a process of discovering patterns and extracting useful information from large datasets.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 79,
+    "fact": "The QWERTY keyboard layout was designed in the 1870s and is still the most widely used keyboard layout.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 80,
+    "fact": "The IBM System/360, introduced in 1964, was a groundbreaking family of mainframe computers that offered a wide range of models and compatibility.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 81,
+    "fact": "Go (also known as Golang) is a programming language developed by Google that focuses on simplicity, efficiency, and concurrency.",
+    "tags": [
+      "ProgrammingLanguages"
+    ]
+  },
+  {
+    "id": 82,
+    "fact": "Android is based on the Linux kernel and is the most widely used operating system for mobile devices worldwide.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 83,
+    "fact": "Phishing emails often include urgent requests, enticing offers, or fake warnings to manipulate recipients into taking actions that benefit the attackers.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 84,
+    "fact": "Progressive web apps (PWAs) combine the features of both websites and mobile applications, providing an app-like experience within a web browser.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 85,
+    "fact": "Machine learning models can be classified into different types, including decision trees, support vector machines, neural networks, and random forests.",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": 86,
+    "fact": "Blockchain technology enables the creation of decentralized digital currencies, known as cryptocurrencies, which are not controlled by any central authority.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 87,
+    "fact": "The Domain Name System (DNS) resolves human-readable domain names into IP addresses, allowing users to access websites using domain names.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 88,
+    "fact": "Data analysis involves cleaning, transforming, and modeling data to discover useful information, draw conclusions, and support decision-making processes.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 89,
+    "fact": "The first video game, called Pong, was released in 1972 and was a simple table tennis sports game.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 90,
+    "fact": "The Apple Macintosh, released in 1984, popularized the graphical user interface (GUI) and brought computers to the masses.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 91,
+    "fact": "Swift is a programming language developed by Apple for iOS, macOS, watchOS, and tvOS app development.",
+    "tags": [
+      "ProgrammingLanguages"
+    ]
+  },
+  {
+    "id": 92,
+    "fact": "Windows 10 is the latest version of the Windows operating system and introduces new features like Cortana, virtual desktops, and the Microsoft Edge browser.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 93,
+    "fact": "Cybersecurity threats are constantly evolving, with new attack techniques, vulnerabilities, and malware variants being discovered every day.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 94,
+    "fact": "Responsive design is an approach to web development that ensures websites adapt and display properly across different devices and screen sizes.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 95,
+    "fact": "Natural language processing (NLP) is used in chatbots, voice assistants, and language translation services to understand and generate human language.",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": 96,
+    "fact": "Ethereum introduced the concept of smart contracts, which are self-executing agreements with the terms of the contract directly written into code.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 97,
+    "fact": "IPv6 (Internet Protocol version 6) provides a larger address space and improved security compared to IPv4, the previous version of the internet protocol.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 98,
+    "fact": "Data scientists use various statistical and machine learning techniques to analyze data, identify patterns, and make predictions or recommendations.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 99,
+    "fact": "The concept of a computer bug originated in 1947 when a moth caused a malfunction in the Harvard Mark II computer.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 100,
+    "fact": "The IBM Personal Computer, released in 1981, set the standard for the modern personal computer and popularized the use of the MS-DOS operating system.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 101,
+    "fact": "JavaScript is commonly used for client-side scripting, but with the introduction of Node.js, it can also be used for server-side scripting.",
+    "tags": [
+      "ProgrammingLanguages"
+    ]
+  },
+  {
+    "id": 102,
+    "fact": "Linux distributions like Ubuntu, Fedora, and Debian have contributed to the popularity of the Linux operating system in both desktop and server environments.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 103,
+    "fact": "Ransomware is a type of malware that encrypts a victim's files and demands a ransom payment in exchange for the decryption key.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 104,
+    "fact": "Content Management Systems (CMS) like WordPress, Joomla, and Drupal make it easier to create and manage websites without extensive coding knowledge.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 105,
+    "fact": "Machine learning models can be trained using labeled data (supervised learning) or unlabeled data (unsupervised learning) depending on the task at hand.",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": 106,
+    "fact": "Blockchain technology has the potential to revolutionize supply chain management by providing transparency, traceability, and efficiency in tracking goods.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 107,
+    "fact": "HTTP (Hypertext Transfer Protocol) is the protocol used for transmitting web pages and other resources over the internet.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 108,
+    "fact": "Data visualization is an effective way to present complex data sets using charts, graphs, and other visual elements to facilitate understanding.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 109,
+    "fact": "The first computer mouse was invented by Douglas Engelbart in 1964 and consisted of a wooden shell with two metal wheels.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 110,
+    "fact": "The Apple II, introduced in 1977, was one of the first successful mass-produced microcomputers and played a significant role in the early personal computer revolution.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 111,
+    "fact": "Python is a versatile programming language known for its readability and ease of use, making it popular among beginners and experienced developers alike.",
+    "tags": [
+      "ProgrammingLanguages"
+    ]
+  },
+  {
+    "id": 112,
+    "fact": "Windows 11 is the latest version of Microsoft's operating system, featuring a redesigned Start Menu, improved performance, and enhanced gaming capabilities.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 113,
+    "fact": "Social engineering attacks can take various forms, such as phishing, pretexting, baiting, and tailgating, and exploit human psychology to manipulate victims.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 114,
+    "fact": "CSS (Cascading Style Sheets) is a styling language used to describe the look and formatting of a document written in HTML.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 115,
+    "fact": "Computer vision is a field of AI that focuses on enabling computers to gain high-level understanding from digital images or videos.",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": 116,
+    "fact": "Decentralized finance (DeFi) is an emerging sector in blockchain technology that aims to provide financial services without traditional intermediaries.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 117,
+    "fact": "SSL/TLS (Secure Sockets Layer/Transport Layer Security) protocols provide secure communication over the internet, ensuring data confidentiality and integrity.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 118,
+    "fact": "Exploratory data analysis (EDA) is an approach in data science that involves summarizing and visualizing data to understand its underlying patterns and distributions.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 119,
+    "fact": "The first commercial video game console, the Magnavox Odyssey, was released in 1972 and could be connected to a standard television set.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 120,
+    "fact": "The World Wide Web was invented by Sir Tim Berners-Lee in 1989, revolutionizing the way information is shared and accessed over the internet.",
+    "tags": [
+      "Internet History"
+    ]
+  },
+  {
+    "id": 121,
+    "fact": "Java is a popular programming language used for building enterprise-scale applications, Android apps, and embedded systems.",
+    "tags": [
+      "ProgrammingLanguages"
+    ]
+  },
+  {
+    "id": 122,
+    "fact": "Linux is an open-source operating system kernel that serves as the foundation for numerous Linux distributions, including Ubuntu, Fedora, and CentOS.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 123,
+    "fact": "Malware can take various forms, such as viruses, worms, Trojans, ransomware, and spyware, and is designed to disrupt, damage, or gain unauthorized access to computer systems.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 124,
+    "fact": "Responsive web design aims to provide an optimal viewing experience across different devices by using flexible layouts and fluid grids.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 125,
+    "fact": "Natural Language Processing (NLP) allows computers to understand, interpret, and generate human language, enabling applications like chatbots and language translation.",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": 126,
+    "fact": "Decentralized applications (DApps) are applications built on blockchain platforms that operate without a central authority or single point of control.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 127,
+    "fact": "The Hypertext Markup Language (HTML) is the standard markup language for creating web pages and applications.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 128,
+    "fact": "Data mining techniques, such as association rule mining, clustering, and classification, can uncover hidden patterns and relationships in large datasets.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 129,
+    "fact": "The first email was sent by Ray Tomlinson in 1971, marking a major milestone in the development of electronic communication.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 130,
+    "fact": "The ENIAC (Electronic Numerical Integrator and Computer), completed in 1945, was the world's first general-purpose electronic digital computer.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 131,
+    "fact": "Python is widely used in the field of data science due to its rich ecosystem of libraries and frameworks, such as NumPy, Pandas, and scikit-learn.",
+    "tags": [
+      "ProgrammingLanguages",
+      "DataScience"
+    ]
+  },
+  {
+    "id": 132,
+    "fact": "macOS Mojave introduced Dark Mode, a feature that allows users to switch to a dark color scheme for a more visually pleasing and focused experience.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 133,
+    "fact": "Social engineering attacks often exploit human emotions and behaviors, such as trust, fear, curiosity, and urgency, to manipulate victims into taking actions.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 134,
+    "fact": "Progressive Web Apps (PWAs) can be installed on users' devices, allowing them to be accessed and used similar to native mobile applications.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 135,
+    "fact": "Reinforcement learning is a branch of AI that focuses on training agents to make decisions and take actions in an environment to maximize rewards.",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": 136,
+    "fact": "Blockchain technology has the potential to revolutionize various industries, including finance, supply chain, healthcare, and voting systems.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 137,
+    "fact": "URL (Uniform Resource Locator) is the address used to access resources, such as web pages, files, or images, on the internet.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 138,
+    "fact": "Data preprocessing is an essential step in data science that involves cleaning, transforming, and organizing data to prepare it for analysis.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 139,
+    "fact": "The first computer game with graphics, Spacewar!, was developed in 1962 and allowed players to control spaceships and engage in space combat.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 140,
+    "fact": "The Commodore 64, released in 1982, is one of the best-selling home computers of all time, with an estimated 17-25 million units sold.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 141,
+    "fact": "C++ is an extension of the C programming language and is widely used for system programming, game development, and high-performance applications.",
+    "tags": [
+      "ProgrammingLanguages"
+    ]
+  },
+  {
+    "id": 142,
+    "fact": "Linux distributions like Ubuntu, CentOS, and Debian are commonly used for web servers, providing stability, security, and flexibility.",
+    "tags": [
+      "OperatingSystems",
+      "WebDev"
+    ]
+  },
+  {
+    "id": 143,
+    "fact": "Phishing attacks often involve impersonating trusted entities, such as banks or popular websites, to trick users into revealing sensitive information.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 144,
+    "fact": "Responsive web design uses media queries to adjust the layout and styling of a website based on the characteristics of the user's device and screen size.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 145,
+    "fact": "Deep learning is a subfield of machine learning that uses artificial neural networks to model and solve complex problems.",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": 146,
+    "fact": "Smart contracts on blockchain platforms like Ethereum enable self-executing agreements with predefined conditions, eliminating the need for intermediaries.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 147,
+    "fact": "DNS (Domain Name System) translates domain names into IP addresses, allowing users to access websites using easy-to-remember names instead of numerical addresses.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 148,
+    "fact": "Data visualization is an effective way to communicate insights and findings from data analysis through charts, graphs, maps, and interactive visual representations.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 149,
+    "fact": "The QWERTY keyboard layout, which is widely used today, was designed in the 1870s to prevent mechanical typewriters from jamming.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 150,
+    "fact": "The IBM System/360, introduced in 1964, was a groundbreaking mainframe computer family that offered compatibility across different models.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 151,
+    "fact": "Ruby is a dynamic, object-oriented programming language known for its simplicity and readability, often used in web development with the Ruby on Rails framework.",
+    "tags": [
+      "ProgrammingLanguages",
+      "WebDev"
+    ]
+  },
+  {
+    "id": 152,
+    "fact": "Windows 11 introduces a redesigned Start Menu, centered taskbar icons, and support for Android apps through the Microsoft Store.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 153,
+    "fact": "Malware can be spread through various vectors, including email attachments, malicious websites, infected USB drives, and social engineering techniques.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 154,
+    "fact": "CSS frameworks like Bootstrap and Foundation provide pre-designed CSS styles and components to streamline web development and ensure consistent designs.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 155,
+    "fact": "Artificial neural networks are inspired by the structure and function of biological neural networks, and they are used in deep learning for pattern recognition tasks.",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": 156,
+    "fact": "Non-fungible tokens (NFTs) are unique digital assets that can represent ownership of digital or physical items, such as artwork, collectibles, or real estate.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 157,
+    "fact": "HTTP/2 is the latest version of the HTTP protocol, designed to improve website loading speed, efficiency, and security compared to the previous version (HTTP/1.1).",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 158,
+    "fact": "Data wrangling, also known as data cleaning or data munging, involves transforming and reshaping raw data to make it suitable for analysis.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 159,
+    "fact": "The first commercial video game, Computer Space, was released in 1971 and was based on the earlier game Spacewar! but designed for arcades.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 160,
+    "fact": "The Altair 8800, released in 1975, was one of the first successful personal computers, even though it had limited memory and no built-in display.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 161,
+    "fact": "JavaScript is a versatile scripting language used for web development, allowing for dynamic and interactive content on websites.",
+    "tags": [
+      "ProgrammingLanguages",
+      "WebDev"
+    ]
+  },
+  {
+    "id": 162,
+    "fact": "macOS Big Sur introduced a major redesign with a refreshed user interface, new app icons, and improvements in performance and privacy.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 163,
+    "fact": "Phishing attacks can be conducted through various channels, including email, instant messaging, social media, and fraudulent websites.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 164,
+    "fact": "The concept of responsive web design was popularized by Ethan Marcotte in 2010, emphasizing the importance of designing websites that adapt to different devices.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 165,
+    "fact": "Natural Language Processing (NLP) techniques include sentiment analysis, named entity recognition, language translation, and text summarization.",
+    "tags": [
+      "AI",
+      "DataScience"
+    ]
+  },
+  {
+    "id": 166,
+    "fact": "Smart contracts enable the automation and execution of agreements without relying on intermediaries, making processes more efficient and transparent.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 167,
+    "fact": "HTTPS (Hypertext Transfer Protocol Secure) is the secure version of HTTP that uses encryption to protect data transmitted between a browser and a website.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 168,
+    "fact": "Data visualization tools, such as Tableau, Power BI, and D3.js, provide interactive and visually appealing ways to explore and present data insights.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 169,
+    "fact": "The first computer mouse was invented by Douglas Engelbart in 1964 and consisted of a wooden shell with two metal wheels.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 170,
+    "fact": "The Apple II, introduced in 1977, was one of the first successful mass-produced microcomputers and played a significant role in the early personal computer revolution.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 171,
+    "fact": "Python is a versatile programming language known for its readability and ease of use, making it popular among beginners and experienced developers alike.",
+    "tags": [
+      "ProgrammingLanguages"
+    ]
+  },
+  {
+    "id": 172,
+    "fact": "Windows 11 is the latest version of Microsoft's operating system, featuring a redesigned Start Menu, improved performance, and enhanced gaming capabilities.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 173,
+    "fact": "Social engineering attacks can take various forms, such as phishing, pretexting, baiting, and tailgating, and exploit human psychology to manipulate victims.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 174,
+    "fact": "CSS (Cascading Style Sheets) is a styling language used to describe the look and formatting of a document written in HTML.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 175,
+    "fact": "Computer vision is a field of AI that focuses on enabling computers to gain high-level understanding from digital images or videos.",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": 176,
+    "fact": "Blockchain technology has the potential to streamline supply chain management by providing transparency, traceability, and efficiency in tracking goods.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 177,
+    "fact": "Domain Name System Security Extensions (DNSSEC) is a set of security protocols that provide authentication and data integrity to DNS responses.",
+    "tags": [
+      "Internet",
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 178,
+    "fact": "Data mining can be used for various applications, such as market basket analysis, customer segmentation, fraud detection, and recommendation systems.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 179,
+    "fact": "The first video game console to use cartridges, the Fairchild Channel F, was released in 1976 and allowed players to swap different game cartridges.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 180,
+    "fact": "The IBM PC, released in 1981, became the standard for personal computers and played a significant role in popularizing the use of computers in homes and offices.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 181,
+    "fact": "JavaScript frameworks like React, Angular, and Vue.js provide efficient and powerful tools for building dynamic and interactive web applications.",
+    "tags": [
+      "ProgrammingLanguages",
+      "WebDev"
+    ]
+  },
+  {
+    "id": 182,
+    "fact": "macOS Catalina introduced the Sidecar feature, allowing users to use an iPad as a second display or as a drawing tablet with Apple Pencil.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 183,
+    "fact": "Ransomware is a type of malware that encrypts a victim's files or locks their device, demanding a ransom payment in exchange for restoring access.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 184,
+    "fact": "CSS preprocessors like Sass and Less enhance the capabilities of CSS by adding features like variables, mixins, nested rules, and modular code.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 185,
+    "fact": "Machine learning algorithms can be categorized into three main types: supervised learning, unsupervised learning, and reinforcement learning.",
+    "tags": [
+      "AI",
+      "DataScience"
+    ]
+  },
+  {
+    "id": 186,
+    "fact": "Decentralized finance (DeFi) applications leverage blockchain technology to provide financial services without the need for intermediaries like banks.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 187,
+    "fact": "Cookies are small pieces of data stored on a user's computer by websites, often used to track user behavior and provide personalized experiences.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 188,
+    "fact": "Exploratory data analysis (EDA) techniques include data visualization, summary statistics, correlation analysis, and outlier detection.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 189,
+    "fact": "The first commercial arcade video game, Pong, was released in 1972 and became a huge success, popularizing the concept of video gaming.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 190,
+    "fact": "The Xerox Alto, developed in the 1970s, was a pioneering computer that introduced concepts such as the graphical user interface (GUI) and the mouse.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 191,
+    "fact": "Java is a widely used programming language known for its platform independence, making it suitable for building applications that can run on different systems.",
+    "tags": [
+      "ProgrammingLanguages"
+    ]
+  },
+  {
+    "id": 192,
+    "fact": "Windows 11 includes features like Snap Layouts, which enable users to organize and snap multiple windows into predefined layouts for improved multitasking.",
+    "tags": [
+      "OperatingSystems"
+    ]
+  },
+  {
+    "id": 193,
+    "fact": "Social engineering attacks can exploit psychological principles, such as authority, scarcity, and reciprocity, to manipulate individuals into revealing sensitive information.",
+    "tags": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "id": 194,
+    "fact": "Front-end frameworks like Vue.js, React, and Angular provide pre-built components and tools to streamline web development and enhance user interfaces.",
+    "tags": [
+      "WebDev"
+    ]
+  },
+  {
+    "id": 195,
+    "fact": "Generative adversarial networks (GANs) are a type of neural network architecture used for tasks such as image generation, style transfer, and data synthesis.",
+    "tags": [
+      "AI",
+      "DataScience"
+    ]
+  },
+  {
+    "id": 196,
+    "fact": "Decentralized applications (DApps) run on blockchain platforms and aim to provide open, transparent, and censorship-resistant alternatives to traditional apps.",
+    "tags": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 197,
+    "fact": "The Domain Name System (DNS) is hierarchical, with the top-level domain (TLD) being the rightmost part of a domain name, such as .com, .org, or .net.",
+    "tags": [
+      "Internet"
+    ]
+  },
+  {
+    "id": 198,
+    "fact": "Data augmentation techniques, such as rotation, scaling, and flipping, can be used to increase the size and diversity of training datasets in machine learning.",
+    "tags": [
+      "DataScience"
+    ]
+  },
+  {
+    "id": 199,
+    "fact": "The first commercial home video game console, the Magnavox Odyssey, was released in 1972 and included a light gun for shooting games.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 200,
+    "fact": "The Apple Macintosh, introduced in 1984, featured a graphical user interface (GUI) and a mouse, making it more user-friendly than other computers at the time.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 201,
+    "fact": "The average computer mouse is moved approximately 27 feet per day.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 202,
+    "fact": "The Konami Code, a cheat code popularized by the Konami video games, is Up, Up, Down, Down, Left, Right, Left, Right, B, A, Start.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 203,
+    "fact": "The Commodore 64, released in 1982, is one of the best-selling home computers of all time, with an estimated 17 million units sold.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 204,
+    "fact": "The term 'bug' in computer programming originated from a real insect that caused a malfunction in a computer.",
+    "tags": [
+      "ComputerHistory"
+    ]
+  },
+  {
+    "id": 205,
+    "fact": "A single Google search requires more computing power than it took to send Apollo 11 to the Moon.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 206,
+    "fact": "The CAPTCHA system was developed to distinguish humans from bots by asking them to complete tasks that are easy for humans but difficult for machines.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 207,
+    "fact": "The programming language Python is named after the British comedy group Monty Python.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 208,
+    "fact": "The first smartphone, called Simon Personal Communicator, was introduced by IBM in 1992.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 209,
+    "fact": "The word technology was coined in 330 BC by the one and only Aristotle.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 210,
+    "fact": "Xerox is not a verb for photocopying but is a name of a company that creates and sells xerographic technology.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 211,
+    "fact": "Motorola produced the first-ever portable mobile phone.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 212,
+    "fact": "Japan has the fastest Internet speed of 319 terabits per second.",
+    "tags": [
+      "FunFact"
+    ]
+  },
+  {
+    "id": 213,
+    "fact": "Facebook was originally a directory of freshmen with their names and pictures.",
+    "tags": [
+      "FunFact"
+    ]
+  }
+]
