@@ -1,7 +1,8 @@
 const express = require('express');
+const cors = require('cors')
 const fs = require('fs');
 const app = express();
-
+app.use(cors());
 // Add the required Firebase SDKs
 const admin = require('firebase-admin');
 const serviceAccount = require('./it-facts-firebase-adminsdk-sdoed-1fce83251a.json'); // Replace with the path to your service account key JSON file
@@ -144,7 +145,9 @@ function getRandomElements(array, numElements) {
   return shuffled.slice(0, numElements);
 }
 
+const port = process.env.PORT || 3000;
+
 // Start the server
-app.listen(3000, () => {
-  console.log('API server is running on port 3000');
+app.listen(port, () => {
+  console.log('API server is running on port ' + port);
 });
