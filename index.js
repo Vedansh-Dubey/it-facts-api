@@ -9,7 +9,7 @@ app.use(cors());
 const admin = require('firebase-admin');
 
 // Initialize the Firebase Admin SDK using the service account key
-const serviceAccount = require(process.env.SERVICE_ACCOUNT_KEY);
+const serviceAccount = require("./it-facts-firebase-adminsdk-sdoed-1fce83251a.json");
 
 admin.initializeApp({
   credential: admin.credential.cert({
