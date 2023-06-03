@@ -7,10 +7,16 @@ const app = express();
 app.use(cors());
 // Add the required Firebase SDKs
 const admin = require('firebase-admin');
+
+// Initialize the Firebase Admin SDK using the service account key
 const serviceAccount = require(process.env.SERVICE_ACCOUNT_KEY);
 
 admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
+  credential: admin.credential.cert({
+    projectId: serviceAccount.project_id,
+    clientEmail: serviceAccount.client_email,
+    privateKey: serviceAccount.private_key,
+  }),
   databaseURL: process.env.DATABASE_URL,
 });
 
