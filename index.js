@@ -1,14 +1,17 @@
 const express = require('express');
 const cors = require('cors')
 const fs = require('fs');
+require('dotenv').config();
+
 const app = express();
 app.use(cors());
 // Add the required Firebase SDKs
 const admin = require('firebase-admin');
-const serviceAccount = require('./it-facts-firebase-adminsdk-sdoed-1fce83251a.json'); // Replace with the path to your service account key JSON file
+const serviceAccount = require(process.env.SERVICE_ACCOUNT_KEY);
+
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://it-facts-default-rtdb.asia-southeast1.firebasedatabase.app'
+  databaseURL: process.env.DATABASE_URL,
 });
 
 // Load the facts from the JSON file
